@@ -15,9 +15,6 @@ export function MainMenu() {
   });
   return (
     <nav className="flex items-center gap-6">
-      <span className="text-base font-semibold text-gray-900">
-        Test Lec Project
-      </span>
       <div className="flex items-center gap-4">
         {allowedRoutes.map(({ path, meta }) => (
           <Link
